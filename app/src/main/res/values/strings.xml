@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pedir_datos_tel">pedirDatos_tel</string>
+    <string name="title_activity_recetas">Recetas</string>
+    <string name="title_activity_promos">Promos</string>
+    <string name="title_activity_scan_images">ScanImages</string>
+    <string name="title_activity_about_us">AboutUs</string>
+</resources>

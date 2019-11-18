@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.myapplication">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Principiio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ScanImages"
+            android:label="@string/title_activity_scan_images"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Promos"
+            android:label="@string/title_activity_promos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Recetas"
+            android:label="@string/title_activity_recetas"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".pedirDatos_tel"
+            android:label="@string/title_activity_pedir_datos_tel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="@string/title_activity_pedir_datos_tel"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
